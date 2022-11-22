@@ -36,7 +36,7 @@ export default class StudentList extends Component {
     return (
       <div className="table-wrapper">
         <Card>
-      <Card.Img variant="top" src="https://www.cdc.gov/healthypets/images/covid/dog-and-cat.jpg?_=46111" />
+      <Card.Img variant="top" className="mt-5" src="https://www.cdc.gov/healthypets/images/covid/dog-and-cat.jpg?_=46111" />
       </Card>
         <Table className="" striped bordered hover variant ="secondary">
           <thead>

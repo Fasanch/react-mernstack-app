@@ -51,10 +51,11 @@ onSubmit(e){
 
   render() {
     return (
+      
       <div class="form-wrapper">
-        
+      
         <Card>
-      <Card.Img variant="top" src="https://www.cdc.gov/healthypets/images/covid/dog-and-cat.jpg?_=46111" />
+      <Card.Img variant="top" className="mt-5" src="https://www.cdc.gov/healthypets/images/covid/dog-and-cat.jpg?_=46111" />
       </Card>
         <Form onSubmit={this.onSubmit}>
           <Form.Group controlId="Name" className="mt-4">
@@ -86,10 +87,10 @@ onSubmit(e){
       <Button variant="success" type="submit" size="lg">
         Ingresar Mascota
       </Button>
-      
     </div>
         </Form>
       </div>
+      
     );
   }
 }

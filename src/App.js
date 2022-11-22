@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <Router>
         <header className="App-header">
-          <Navbar bg="dark" variant="dark">
+          <Navbar fixed="top" bg="dark" variant="dark">
             <Container>
             <img
               src="https://i.gifer.com/Qjy2.gif"

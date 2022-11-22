@@ -82,7 +82,7 @@ export default class EditStudent extends Component {
     return (
       <div className="form-wrapper">
       <Card>
-      <Card.Img variant="top" src="https://www.cdc.gov/healthypets/images/covid/dog-and-cat.jpg?_=46111" />
+      <Card.Img variant="top" className="mt-5" src="https://www.cdc.gov/healthypets/images/covid/dog-and-cat.jpg?_=46111" />
       </Card>
         <Form onSubmit={this.onSubmit}>
           <Form.Group className="mt-4" controlId="Name">
